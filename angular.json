@@ -59,7 +59,6 @@
                         ],
                         "scripts": [
                             "src/assets/js/jquery.min.js",
-                            "src/assets/js/jquery.googlemap.js",
                             "src/assets/js/jquery.magnific-popup.min.js",
                             "src/assets/js/modernizr.custom.js",
                             "src/assets/js/jquery.shuffle.min.js",
