@@ -1,5 +1,5 @@
 [build]
-  publish = "bin"
+  publish = "www"
   command = "npm run build"
 [[redirects]]
   from="/*"
