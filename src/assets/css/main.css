@@ -142,7 +142,7 @@ p {
     min-height: 80vh;
     margin: 10vh auto;
     padding: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0b7080), to(#0ba376));
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#C6011F));
     background: linear-gradient(#000000, #C6011F);
     -webkit-box-shadow: 0 0 100px -5px rgba(0, 0, 0, .25);
     -moz-box-shadow: 0 0 100px -5px rgba(0, 0, 0, .25);
@@ -171,7 +171,7 @@ input[type="submit"],
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #0ba376;
+    border: 2px solid #C6011F;
     color: #222;
     text-shadow: none;
     background-color: #fff;
@@ -202,9 +202,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background-color: #0ba376;
+    background-color: #C6011F;
     color: #fff;
-    border: 2px solid #0ba376;
+    border: 2px solid #C6011F;
 }
 
 .btn-secondary {
@@ -229,7 +229,7 @@ input[type="submit"]:focus {
 }
 
 
-/* ============================================================================= 
+/* =============================================================================
 3. Page loadig animation
 ============================================================================= */
 
@@ -265,7 +265,7 @@ input[type="submit"]:focus {
     width: 52px;
     height: 52px;
     margin: 100px auto;
-    background-color: #0ba376;
+    background-color: #C6011F;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -341,7 +341,7 @@ input[type="submit"]:focus {
     ul.main-menu a.active,
     ul.main-menu a:focus,
     ul.main-menu a:hover {
-        color: #0ba376;
+        color: #C6011F;
     }
     ul.main-menu .menu-icon {
         display: block;
@@ -354,7 +354,7 @@ input[type="submit"]:focus {
         opacity: 0;
         color: #fff;
         padding: 2px 10px;
-        background-color: #0ba376;
+        background-color: #C6011F;
         white-space: nowrap;
         right: 0;
         top: -50%;
@@ -408,7 +408,7 @@ input[type="submit"]:focus {
 }
 
 .lmpixels-arrows-nav div:hover {
-    color: #0ba376;
+    color: #C6011F;
 }
 
 
@@ -511,7 +511,7 @@ input[type="submit"]:focus {
 
 .header-buttons .btn-primary:hover {
     background-color: #fff;
-    color: #0ba376;
+    color: #C6011F;
     border-color: #fff;
 }
 
@@ -622,7 +622,7 @@ input[type="submit"]:focus {
 }
 
 .ps:hover>.ps__scrollbar-y-rail:hover>.ps__scrollbar-y {
-    background-color: #0ba376;
+    background-color: #C6011F;
 }
 
 .ps>.ps__scrollbar-y-rail {
@@ -654,7 +654,7 @@ input[type="submit"]:focus {
 }
 
 .page-title h2 span {
-    color: #0ba376;
+    color: #C6011F;
 }
 
 .page-title:after {
@@ -665,9 +665,9 @@ input[type="submit"]:focus {
     content: '';
     height: 30px;
     width: 50px;
-    background-image: -webkit-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
     -webkit-background-size: 6px 6px;
     -moz-background-size: 6px 6px;
     background-size: 6px 6px;
@@ -731,7 +731,7 @@ textarea.form-control:focus {
     top: 0;
     opacity: 0;
     background: transparent;
-    border: 2px solid #0ba376;
+    border: 2px solid #C6011F;
     border-right-width: 0;
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
@@ -807,7 +807,7 @@ textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-    color: #0ba376;
+    color: #C6011F;
 }
 
 .form-group.form-group-w-checkbox {
@@ -861,7 +861,7 @@ textarea.form-control:focus {
 
 .form-group .form-control:focus~label,
 .form-group.form-group-focus .form-control~label {
-    color: #0ba376;
+    color: #C6011F;
     top: -20px;
     left: 0;
     z-index: 1;
@@ -904,7 +904,7 @@ input[type="text"],
 }
 
 .block-title h3 span {
-    color: #0ba376;
+    color: #C6011F;
 }
 
 .block-title:after {
@@ -915,9 +915,9 @@ input[type="text"],
     content: '';
     height: 20px;
     width: 30px;
-    background-image: -webkit-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #0ba376, #0ba376 1px, transparent 0px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #C6011F, #C6011F 1px, transparent 0px, transparent 100%);
     -webkit-background-size: 6px 6px;
     -moz-background-size: 6px 6px;
     background-size: 6px 6px;
@@ -972,7 +972,7 @@ input[type="text"],
 }
 
 .info-list .title {
-    color: #0ba376;
+    color: #C6011F;
     margin-right: 5px;
     font-weight: 600;
 }
@@ -1004,7 +1004,7 @@ input[type="text"],
 .info-block-w-icon i {
     position: relative;
     font-size: 42px;
-    color: #0ba376;
+    color: #C6011F;
     opacity: .7;
 }
 
@@ -1037,7 +1037,7 @@ input[type="text"],
 .lm-info-block i {
     position: relative;
     font-size: 33px;
-    color: #0ba376;
+    color: #C6011F;
     z-index: 1;
 }
 
@@ -1052,7 +1052,7 @@ input[type="text"],
     font-weight: 400;
     display: block;
     margin: 10px 0;
-    color: #0ba376;
+    color: #C6011F;
 }
 
 .lm-info-block .lm-info-block-value:empty {
@@ -1098,7 +1098,7 @@ input[type="text"],
     font-size: 30px;
     right: 0;
     top: 7px;
-    color: #0ba376;
+    color: #C6011F;
     opacity: .5;
 }
 
@@ -1209,8 +1209,8 @@ input[type="text"],
 .testimonials.owl-carousel .owl-nav .owl-next:hover,
 .clients.owl-carousel .owl-nav .owl-prev:hover,
 .clients.owl-carousel .owl-nav .owl-next:hover {
-    background-color: #0ba376;
-    border-color: #0ba376;
+    background-color: #C6011F;
+    border-color: #C6011F;
     color: #fff;
 }
 
@@ -1273,7 +1273,7 @@ input[type="text"],
     position: absolute;
     margin-left: -8px;
     border-radius: 10px;
-    background-color: #0ba376;
+    background-color: #C6011F;
     opacity: .25;
     z-index: 0;
 }
@@ -1288,7 +1288,7 @@ input[type="text"],
     margin-left: -4px;
     background-color: #fff;
     border-radius: 5px;
-    border: 2px solid #0ba376;
+    border: 2px solid #C6011F;
     z-index: 1;
 }
 
@@ -1350,7 +1350,7 @@ input[type="text"],
     position: relative;
     display: inline-block;
     background-color: #fff;
-    border: 1px solid #0ba376;
+    border: 1px solid #C6011F;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -1365,7 +1365,7 @@ input[type="text"],
 .skills-second-style .skill-container:before {
     content: '';
     position: absolute;
-    background-color: #0ba376;
+    background-color: #C6011F;
 }
 
 .skills-second-style .skill-value {
@@ -1378,7 +1378,7 @@ input[type="text"],
 }
 
 .skills-second-style .skill-percentage {
-    background-color: #0ba376;
+    background-color: #C6011F;
     border: 2px solid #fff;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
@@ -1465,7 +1465,7 @@ input[type="text"],
 .knowledges li {
     ;
     display: inline-block;
-    background-color: #0ba376;
+    background-color: #C6011F;
     border-radius: 3px;
     color: #fff;
     padding: 1px 10px;
@@ -1699,7 +1699,7 @@ input[type="text"],
     width: 30px;
     height: 30px;
     background-color: #fff;
-    color: #0ba376;
+    color: #C6011F;
     text-align: center;
     line-height: 30px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1964,7 +1964,7 @@ input[type="text"],
 }
 
 .ajax-page-nav>div.nav-item a:hover {
-    background-color: #0ba376;
+    background-color: #C6011F;
     color: #fff;
 }
 
@@ -2023,7 +2023,7 @@ input[type="text"],
 }
 
 .project-general-info .fa {
-    color: #0ba376;
+    color: #C6011F;
     margin-right: 5px;
 }
 
@@ -2055,8 +2055,8 @@ input[type="text"],
 
 .share-buttons a:hover {
     color: #fff;
-    background-color: #0ba376;
-    border-color: #0ba376;
+    background-color: #C6011F;
+    border-color: #C6011F;
 }
 
 .share-buttons a:last-child {
@@ -2394,7 +2394,7 @@ blockquote {
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #0ba376;
+        background-color: #C6011F;
         z-index: 99;
         padding: 30px 30px 10px 30px;
         text-align: center;
@@ -2479,7 +2479,7 @@ blockquote {
         height: 48px;
         line-height: 46px;
         text-align: center;
-        background-color: #0ba376;
+        background-color: #C6011F;
         right: 10px;
         font-size: 19px;
         top: 10px;
@@ -2560,7 +2560,7 @@ blockquote {
         right: 10px;
         bottom: 10px;
         padding: 5px 0;
-        border: 2px solid #0ba376;
+        border: 2px solid #C6011F;
     }
     .lmpixels-arrows-nav div {
         font-size: 24px;
@@ -2675,7 +2675,7 @@ blockquote {
 }
 
 
-/* ============================================================================= 
+/* =============================================================================
 9. Pricing
 ============================================================================= */
 
@@ -2728,7 +2728,7 @@ blockquote {
     content: '';
     height: 2px;
     margin-top: 0;
-    background-color: #0ba376;
+    background-color: #C6011F;
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -2803,7 +2803,7 @@ blockquote {
 }
 
 
-/* ============================================================================= 
+/* =============================================================================
 10. Full Width Styles
 ============================================================================= */
 
@@ -2871,7 +2871,7 @@ blockquote {
         right: 10px;
         bottom: 10px;
         padding: 5px 0;
-        border: 2px solid #0ba376;
+        border: 2px solid #C6011F;
     }
 }
 
@@ -2880,7 +2880,7 @@ blockquote {
 }
 
 
-/* ============================================================================= 
+/* =============================================================================
 11. Updates
 ============================================================================= */
 
@@ -3027,7 +3027,7 @@ blockquote {
 .fun-fact i {
     position: relative;
     font-size: 33px;
-    color: #0ba376;
+    color: #C6011F;
     margin-bottom: 6px;
     width: 33px;
     height: 33px;
@@ -3038,7 +3038,7 @@ blockquote {
     font-weight: 400;
     display: block;
     margin: 10px 0;
-    color: #0ba376;
+    color: #C6011F;
 }
 
 .fun-fact-block-value {

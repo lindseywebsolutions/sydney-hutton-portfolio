@@ -48,8 +48,8 @@
                             "src/assets"
                         ],
                         "styles": [
+                            "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
                             "src/assets/css/animations.css",
-                            "src/assets/css/bootstrap-grid.min.css",
                             "src/assets/css/magnific-popup.css",
                             "src/assets/css/owl.carousel.css",
                             "src/assets/css/perfect-scrollbar.css",
@@ -60,6 +60,7 @@
                         "scripts": [
                             "src/assets/js/jquery.min.js",
                             "src/assets/js/jquery.magnific-popup.min.js",
+                            "node_modules/bootstrap/dist/js/bootstrap.min.js",
                             "src/assets/js/modernizr.custom.js",
                             "src/assets/js/jquery.shuffle.min.js",
                             "src/assets/js/animating.js",
