@@ -24,10 +24,10 @@ import { SideNavigationComponent } from './components/side-navigation/side-navig
     SideNavigationComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule,
-    AppRoutingModule
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
